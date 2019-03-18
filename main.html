@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="POST" name="form" class="form">
+        <div class="header">
+            <div class="color">
+                <div class="figure">
+                </div>
+                <div class="ent_form">
+                    ФОРМА ВХОДА
+                </div>
+            </div>
+        </div> 
+        <div class="reg">    
+                <label for="login"><img src=a.png></label>
+                <input onkeydown="changeColor()" type="text" id="login" placeholder="USERNAME...">
+                <label for="password"><img src=b.png></label>
+                <input id="log2" type="password" id="password" placeholder="***********">
+                <input class="remb" type="checkbox" id="check">
+                <label class="rembo" for="check">запомнить</label>
+                <button onclick="login()">ВОЙТИ</button>
+                <div class="forget">
+                    <a href="#">Забыл пароль</a> | <a href="#">Регистрация</a> 
+                </div>
+        </div>
+    </form>
+</body>
+</html>

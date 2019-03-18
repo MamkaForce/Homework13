@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 22, 22); 
+}
+
+.form{
+    height: 225px;
+    width: 270px;
+    background-color: rgb(44, 37, 37);
+    margin: auto;
+    margin-top: 15%;
+}
+
+.figure {
+    height: 0; 
+    width: 40px;
+    border-bottom: 30px solid rgb(20, 20, 18);
+    border-right: 30px solid transparent;
+    border-top-left-radius: 3px;
+}
+
+.header{
+    width: 250px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.color{
+    height:30px;
+    background-color: red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+  }
+  
+.ent_form{
+    position: relative;
+    bottom: 23px;
+    color: white;
+}
+
+.reg{
+    background-color: rgb(22, 20, 20);
+    height: 170px;
+    width: 250px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+.remb{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.rembo{
+    position: relative;
+    top: 8px;
+    left: 30px;
+}
+
+#login{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-color:black;
+    border-radius: 5px;
+    background-color: rgb(34, 31, 31);
+    height: 40px;
+    width: 200px;
+    padding-left: 5px; 
+}
+
+#log2{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-color:black;
+    border-radius: 5px;
+    background-color: rgb(34, 31, 31);
+    height: 40px;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.forget{
+   position: relative;
+   top: 20px;
+   left: 30px;
+   opacity: 0.3; 
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 18px;
+}
+
+button{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-color: rgb(44, 37, 37);
+    color: white;
+    border-radius: 5px;
+    border-color:rgb(44, 37, 37); 
+    border-bottom-color: black; 
+    height: 30px;
+    width: 70px;
+}
+
+
+
